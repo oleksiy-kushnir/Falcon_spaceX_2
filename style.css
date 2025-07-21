@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+body {
+  font-family: 'Roboto', sans-serif;
+ 
+}
+* {
+    /* СЮДА ЛУВШЕ НЕ ЛІЗТИ ПРОМСТО ВОНО ТУТ ВСЕ КЕРУЄ */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    /* ну тіпа фон ось такого ну екран */
+    width: 1440px;
+    height: 3559px;
+    background: #000000;
+    margin: 0 auto;
+}
+
+.header{
+    /* король сайтух(верхушка) */
+    height: 123px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.header-content{
+    /* жовна лінія */
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1230px;
+    height: 17px;
+    top: 53px;
+    left: 104px;
+}
+
+.nav{
+/* ТЕ ШО РОБИТЬСЯ У СЕРЕДИНІ ЖОВТОЇ ЛІНІЇ */
+list-style: none;
+gap: 20px;
+display: flex
+}
+
+.nav-link{
+    /* сам текст */
+text-decoration: none;
+font-family: Roboto;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+color:rgb(255, 255, 255);
+}
+
+
+.main {
+    height: 1250px;
+    background: #000000;
+}
+
+.Main-title{
+    font-size: 50px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+  height: 75px;
+ top: 190px;
+ left: 529px;
+color: #FFFFFF;
+}
+.Main-subtitle {
+font-family: Roboto;
+font-weight: 300;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: lowercase;
+ color:white;
+ margin: 26px auto;
+ width: 268px;
+height: 44px;
+}
+
+.Raketa-spaceX{
+ background: #000000;
+ padding: 50px;
+font-family: Roboto;
+font-weight: 700px;
+font-size: 20px;
+line-height: 45px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #ffffff;
+width: 550px;
+height: 60px;
+}
+.falcon-overwiew{
+  height: 360px;
+  width: 603px;
+  background: #000000;
+  list-style: none;
+}
+.overwiew-title{
+  height: 68px;
+  background: #000000;
+  width: 603px;
+  list-style: none;
+}
+.overview-text{
+  display: flex;
+  background: #000000;
+  width: 603px;
+    list-style: none;
+    width: 800px;
+
+}
+.falcon-parameters{
+  width: 50%;
+    list-style: none;
+}
+.left-col{
+  background: #000000;
+    list-style: none;
+}
+.right-col{
+  background: #000000;
+    list-style: none;
+}
+.Raketa-Information{
+font-family: Roboto;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+letter-spacing: 0%;
+width: 700px;
+height: 145;
+}
+.footer {
+  background-color: #000; /* чорний фон */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.contact-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background: white;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
